@@ -1,0 +1,115 @@
+.product-header h3{
+    width: 172px;
+     height: 50px;
+     margin-left: 224px;
+     margin-top: 740px;
+    font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 32px;
+     letter-spacing: 0.1px;
+     color: #000000;
+ }
+ 
+ .card-rectangle{
+     display: inline-block;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     overflow-x: auto;
+     width: 500px;
+     height: 550px;
+     margin-left: 224px;
+     border-radius: 10px;
+     box-shadow: 0 0 1rem rgba(0,0,0,0.25);
+     background: #FFFFFF;
+ }
+ 
+ .card-container::-webkit-scrollbar{
+     width: 0;
+ }
+ 
+ .card-image{
+     width: 500px;
+     height: 307px;
+     border-radius: 10px 10px 0px 0px;
+     object-fit: cover;
+     text-align: center;
+     margin-right: 5px;
+ }
+ 
+ .card-name{
+ width: 330px;
+ height: 79px;
+ }
+ 
+ .product-name{
+ width: 300px;
+ height: 32px;
+ margin-left: 100px;
+ margin-top: 45px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 32px;
+ letter-spacing: 0.1px;
+ color: #000000;
+ }
+ 
+ .product-oldPrice{
+ width: 100px;
+ height: 32px;
+ margin-left: 150px;
+ margin-top: 20px;
+ 
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 32px;
+ letter-spacing: 0.1px;
+ text-decoration-line: line-through;
+ color: #444444;
+ }
+ 
+.product-newPrice{
+ width: 100px;
+ margin-left: 250px;
+ margin-top: -55px;
+ 
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 24px;
+ line-height: 32px;
+ letter-spacing: 0.1px;
+ 
+ color: #000000;
+ 
+ }
+ 
+ .add-to-cart{
+ width: 328px;
+ height: 43px;
+ margin-left: 70px;
+ background: #23A6F0;
+ border-radius: 10px;
+ border-style: none;
+ }
+ .add-to-cart h3{
+ width: 145px;
+ height: 32px;
+ margin-left: 95px;
+ margin-top: 10px;
+ 
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 20px;
+ line-height: 32px;
+ letter-spacing: 0.1px;
+ color: #FFFFFF;
+ 
+ }

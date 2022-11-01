@@ -1,0 +1,129 @@
+.navigation-bar{
+    position: absolute;
+    width: 1437px;
+    height: 58px;
+    left: calc(50% - 1437px/2 - 1.5px);
+    top: 0px;
+
+}
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-brand {
+    position: absolute;
+    width: 187px;
+    height: 58px;
+    left: calc(50% - 187px/2 - 587px);
+    top: 0px;
+
+}
+
+.navigation-brand a{
+    position: absolute;
+    width: 116px;
+    height: 32px;
+    left: 0px;
+    top: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    text-decoration: none;
+
+}
+.navigation-list{
+    position: absolute;
+    width: 1155px;
+    height: 58px;
+    left: calc(50% - 1155px/2 + 124px);
+    top: 0px;
+    
+}
+
+.navigation-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    position: absolute;
+    width: 361px;
+    height: 25px;
+    left: 0px;
+    top: calc(50% - 25px/2);
+    text-decoration: none;
+
+}
+
+.home{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-decoration: none;
+    
+
+}
+
+.navigation-list-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 324px;
+    height: 54px;
+    left: calc(50% - 324px/2 + 416.5px);
+    top: calc(50% - 54px/2);
+
+}
+
+.icon-size{
+    width: 16px;
+    height: 16px;
+}
+
+.icon-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 5px;
+    border-radius: 37px;
+}
+
+.person-icon{
+    width: 5px;
+    height: 22px;
+}
+registration-link{
+    top: 42px;
+    width: 56px;
+    height: 46px;
+}
+
+.search-link{
+    width: 46px;
+    height: 46px;
+}
+
+.cart-link{
+    width: 56px;
+    height: 46px;
+}
+.heart-link{
+    width: 56px;
+    height: 46px;
+}
+
+
